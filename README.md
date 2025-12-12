@@ -1,4 +1,3 @@
-````markdown
 # Celery Queue Manager
 
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)
@@ -25,7 +24,7 @@ You can install this tool directly via `pip`.
 If this repository is hosted on GitHub/GitLab:
 
 ```bash
-pip install git+[https://github.com/your-username/celery-queue-manager.git](https://github.com/your-username/celery-queue-manager.git)
+pip install git+[https://github.com/mbroekman/celery-queue-manager.git](https://github.com/mbroekman/celery-queue-manager.git)
 ````
 
 ### Option 2: Install Locally (For Development)
@@ -107,8 +106,8 @@ To build this package yourself (e.g., to create a `.whl` file):
 
 **Created by: [Jouw Naam]**
 
-  * **Email:** [Jouw Email]
-  * **GitHub:** [Jouw GitHub Profiel]
+  * **Email:** m.broekman@ises-softpack.nl
+  * **GitHub:** https://github.com/mbroekman
 
 ## 📄 License
 
