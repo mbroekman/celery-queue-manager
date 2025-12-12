@@ -11,7 +11,7 @@ Features:
 - Supports purging entire queues.
 - Supports selective deletion of tasks using wildcards (e.g., '*email*').
 
-Created by: Maddog Broekman
+Created by: Machiel Broekman
 """
 import sys
 import redis
