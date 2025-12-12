@@ -21,7 +21,7 @@ import fnmatch  # Required for wildcard matching (*, ?)
 # --- CONFIGURATION ---
 # Adjust the host/port if necessary.
 # If running inside Docker, use the service name (e.g., 'redis') instead of 'localhost'.
-BASE_REDIS_URL = 'redis://localhost:6379' 
+BASE_REDIS_URL = os.getenv('CELERY_REDIS_URL', 'redis://localhost:6379')
 
 def scan_all_databases():
     """Scans Redis databases 0 through 15 for Lists (Celery queues)."""

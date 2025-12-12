@@ -1,0 +1,33 @@
+# --- Python Standaard ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+
+# --- Distributie & Build (pip / setuptools) ---
+build/
+dist/
+*.egg-info/
+
+# --- PyInstaller ---
+*.spec
+
+# --- Debian Packaging ---
+*.deb
+celery-manager_*/
+
+# --- Environment Variables ---
+.env
+.env.local
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+*.swp
+
+# --- Redis ---
+dump.rdb
