@@ -24,7 +24,7 @@ You can install this tool directly via `pip`.
 If this repository is hosted on GitHub/GitLab:
 
 ```bash
-pip install https://github.com/mbroekman/celery-queue-manager.git
+pip install git+https://github.com/mbroekman/celery-queue-manager.git
 ````
 
 ### Option 2: Install Locally (For Development)
