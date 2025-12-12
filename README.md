@@ -26,7 +26,6 @@ If this repository is hosted on GitHub/GitLab:
 ```bash
 pip install git+https://github.com/mbroekman/celery-queue-manager.git
 ````
-````
 
 ### Option 2: Install Locally (For Development)
 
