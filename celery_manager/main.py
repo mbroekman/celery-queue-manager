@@ -17,6 +17,7 @@ import sys
 import redis
 import json
 import fnmatch  # Required for wildcard matching (*, ?)
+import os
 
 # --- CONFIGURATION ---
 # Adjust the host/port if necessary.
